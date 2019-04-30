@@ -1,10 +1,88 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<meta charset="utf-8">
-<head>
-    <title>Four Idiots' page</title>
-</head>
-<body>
-<h1>This page is Four Idiots' github page</h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>20130490 LeeJunSeob</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="capital_game.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+    <style>
+    h1 {
+      font-family: 'Srisakdi', cursive;
+      font-size: 35px;
+    }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+
+    <script type="text/javascript" src="./capital_game.js"></script>
+    <script type="text/javascript" src="./country_capital_pairs.js"></script>
+
+
+  </head>
+  <body>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+
+    <script type="text/javascript" src="./capital_game.js"></script>
+    <script type="text/javascript" src="./country_capital_pairs.js"></script>
+
+    <!-- <script>
+    function deleteRow(r) {
+      console.log("d");
+      var i = r.parentNode.parentNode.rowIndex;
+      answers.splice(i);
+      refreshList();
+    }
+    </script> -->
+
+
+    <h1 align="center"><b>Do you know the capital of this country?</b></h1>
+
+    <table style="width:50%", align="center" id="quizs">
+      <thead>
+      <tr><b>
+        <th>Country</th>
+        <th>Capital</th>
+        <th>Answer</th>
+      </b></tr>
+
+
+      <tr>
+        <td id="pr2__question"></td>
+        <td>
+          <div class="ui-widget">
+            <input id="pr2__answer" type="text" >
+          </div></td>
+        <td><button id="pr2__submit">See Answer</button></td>
+      </tr>
+
+      <tr>
+        <div>
+        <td><input type="radio" id="all" name="a" checked>All</input></td>
+        <td><input type="radio" id="onlycorrect" name="a">Correct Only</input></td>
+        <td><input type="radio" id="onlywrong" name="a">Wrong Only</input></td>
+      </div>
+      </tr>
+
+    </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+
+
+    <!--Your code here-->
+  </body>
 </html>
