@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -2332,13 +2332,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: transparent;
   color: #fff;
 }
-
+.single-offer {
+  margin-bottom: 35px;
+}
 .single-offer .desc {
-  margin-left: 12px;
+  margin-left: 40px;
 }
 
 .single-offer h4 {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .home-video-area {
